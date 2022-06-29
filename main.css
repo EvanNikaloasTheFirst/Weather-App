@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    background-image: url(background.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* places all items in a straight down column direction */
+    flex-direction: column;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.location
+.temperature {
+    height: 30vh;
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+#place{
+    font-size: 2.5rem;
+}
+
+.temperature{
+    flex-direction: column;
+}
+#temp{
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#temp-description{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.degree-section h2{
+    font-size: 40px;
+    
+}
