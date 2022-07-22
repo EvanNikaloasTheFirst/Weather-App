@@ -1,4 +1,5 @@
-# Weather-App
+Weather API:
+This is my first project implementing an API after completing an API course (https://www.youtube.com/watch?v=GZvSYJDk-us). I wasn't entirely confident creating this project from scratch so I followed a tutorial on youtube to understand the components that are required to create a fully functioning API application.
 
-This is a simple weather application where the user will input a city and the results will be displayed back to the user on the screen via an openWeather API.
-This is my first project working with APIs
+To use the application:
+Simply type in a location:
