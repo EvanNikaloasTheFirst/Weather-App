@@ -37,16 +37,16 @@ let weather = {
         var city = document.getElementById("place").innerHTML = "Weather in " + name;
     
 
-        var temperature = document.getElementById("temp").innerHTML = temp + "°C" ;
+        var temperature = document.getElementById("temp").innerHTML =  "Temperature: " + temp + "°C" ;
 
-        var temperatureDescription = document.getElementById("temp-description").innerHTML = "Weather:" + description;
+        var temperatureDescription = document.getElementById("temp-description").innerHTML = "Weather: " + description;
         
 
         var Humidity = document.getElementById("humidity").innerHTML = "Humidity: " + humidity;
 
-        var itFeelsLike = document.getElementById("feelsLike").innerHTML = "Feels like:" + feels_like  + "°C"
+        var itFeelsLike = document.getElementById("feelsLike").innerHTML = "Feels like: " + feels_like  + "°C"
 
-        var windSpeed = document.getElementById("Speed").innerHTML = "Speed:" + speed;
+        var windSpeed = document.getElementById("Speed").innerHTML = "Speed: " + speed;
 
        
        
