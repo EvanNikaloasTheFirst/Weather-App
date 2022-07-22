@@ -4,10 +4,7 @@
 // });
 
 let weather = {
-// https://openweathermap.org/ <- api used
-    
-    // insert APIKEY below
-    "apiKey": "*******************",
+    "apiKey": "04d21d13fdbe1ceef1cc92fb2f8d01ca",
     //  creating a function called fetch weather
     fetchWeather:function(city)
 {
