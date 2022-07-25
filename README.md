@@ -1,5 +1,12 @@
-Weather API:
-This is my first project implementing an API after completing an API course (https://www.youtube.com/watch?v=GZvSYJDk-us). I wasn't entirely confident creating this project from scratch so I followed a tutorial on youtube to understand the components that are required to create a fully functioning API application.
+WEATHER API:
 
-To use the application:
-Simply type in a location:
+Technologies used: JavaScript, HTML,CSS, WebAPI
+
+The website is available now:
+https://evannikaloasthefirst.github.io/Weather-App/
+
+INSTRUCTIONS:
+Simply type in a location (city) and the weather results will be presented back.
+
+DESCRIPTION:
+After completing a Youtube course about the Introduction to Api's I took it upon myself to put to into practice what I had covered. This was a fairly simple application but I covered new areas of JavaScript such as the fetch function. In addition to this, I was also exposed to working with JSON data and extracting the desirable parts required to enable my application to function as desired.
