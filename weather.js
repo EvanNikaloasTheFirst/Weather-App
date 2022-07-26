@@ -26,12 +26,11 @@ let weather = {
         const {feels_like} = data.main;
 
         
-        // console.log( "name:" + name ,+ "decription:" + description, "temp:" + temp, "humidity:" + humidity,"speed:"+ speed, "feels like " + feels_like);
+        // console.log( "name:" + name ,+ "description:" + description, "temp:" + temp, "humidity:" + humidity,"speed:"+ speed, "feels like " + feels_like);
 
         // transfers the data from JSON Into elements within the HTML page
 
         var city = document.getElementById("place").innerHTML = "Weather in " + name;
-    
 
         var temperature = document.getElementById("temp").innerHTML =  "Temperature: " + temp + "°C" ;
 
