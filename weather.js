@@ -11,6 +11,7 @@ let weather = {
 },
 
     // creating a function which will display the weather
+    // data hold the info from the JSON file results
     displayWeather:function(data)
     {
 
